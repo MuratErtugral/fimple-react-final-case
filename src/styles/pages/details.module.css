@@ -1,0 +1,105 @@
+/* başvuruDurumu.module.css */
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.attachment {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.attachment a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    gap: 10px;
+}
+.rowColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px 0
+}
+.rowColumn p {
+    color: #000;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+.statusDropdown {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.responseTextArea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: vertical;
+    height: 100px;
+}
+.saveButtonRow {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.saveButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.saveButton:hover {
+    background-color: #2980b9;
+}
+
+.saveButton.dark {
+    background-color: #2c3e50;
+
+}
+.saveButton.dark:hover {
+    background-color: #34495e;
+}

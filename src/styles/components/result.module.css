@@ -1,0 +1,74 @@
+/* başvuruDurumu.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ecf0f1; 
+  padding: 20px; 
+  border: 2px solid #bdc3c7; 
+  border-radius: 8px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+  }
+
+  .attachment {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .attachment a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px 0
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .status {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .buttonContainer a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .buttonContainer a:hover {
+    background-color: #2980b9; /* Koyu mavi hover rengi */
+  }
+  .buttonContainer.dark a{
+    background-color: #2c3e50; /* Koyu tema mavi rengi */
+  }
+  .buttonContainer.dark a:hover {
+    background-color: #34495e; /* Koyu tema hover rengi */
+  }

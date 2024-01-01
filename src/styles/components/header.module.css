@@ -1,0 +1,142 @@
+/* Genel stiller */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 20px 0 20px;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+  margin: 0;
+}
+
+.header.dark {
+  background-color: #2c3e50; /* Dark tema arka plan rengi */
+}
+
+.header.light {
+  background-color: #3498db; /* Light tema arka plan rengi */
+}
+.left{
+  display: flex;
+  gap: 10px;
+
+}.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.left a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.switchButton{
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.switchButton:hover{
+  background-color: #2980b9;
+}
+.switchButton.dark{
+  background-color: #2c3e50;
+}
+.switchButton.dark:hover{
+  background-color: #34495e;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+}
+
+/* İlk butonun stilleri */
+.right a:first-child {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.right a:first-child.dark {
+  background-color: #27ae60; /* Dark tema için yeşil renk */
+  border: 2px solid #27ae60;
+}
+
+.right a:first-child.light {
+  background-color: #2ecc71; /* Light tema için yeşil renk */
+  border: 2px solid #27ae60;
+}
+
+.right a:first-child:hover {
+  background-color: #27ae60;
+}
+
+/* İkinci butonun stilleri */
+.right a:last-child {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.right a:last-child.dark {
+  background-color: #c0392b; /* Dark tema için kırmızı renk */
+  border: 2px solid #c0392b;
+}
+
+.right a:last-child.light {
+  background-color: #e74c3c; /* Light tema için kırmızı renk */
+  border: 2px solid #c0392b;
+}
+
+.right a:last-child:hover {
+  background-color: #c0392b;
+}
+
+.right button{
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.right button:hover{
+  background-color: #e74c3c;
+}
+
+/* Tema butonunun stilleri */
+.themeButton {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.themeButton.dark {
+  background-color: #2c3e50; /* Dark tema için tema butonu rengi */
+  border: 2px solid #2c3e50;
+}
+
+.themeButton.light {
+  background-color: #34495e; /* Light tema için tema butonu rengi */
+  border: 2px solid #2c3e50;
+}
+
+.themeButton:hover {
+  background-color: #2c3e50;
+}

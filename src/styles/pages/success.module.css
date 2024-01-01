@@ -1,0 +1,32 @@
+/* success.module.css */
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .message {
+    font-size: 24px;
+    color: #28a745;
+  }
+  
+  .details {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  
+  .details strong {
+    font-weight: bold;
+    color: #333;
+  }
+  .details.dark {
+    color: 	white
+  }
+
+
+  .details.dark strong{
+    color:white
+  }
+  
