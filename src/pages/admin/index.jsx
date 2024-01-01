@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import styles from "../../styles/pages/admin.module.css";
 import withTheme from "../../hoc/withTheme";
 import { signIn } from "../../utils/firebase";
