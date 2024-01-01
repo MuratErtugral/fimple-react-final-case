@@ -1,18 +1,1 @@
-// _headers dosyası
-
-/*
-  Bu, tüm dosyalara erişim izni verir.
-  Eğer sadece JSON dosyalarına izin vermek istiyorsanız
-  match /path/to/json/* {
-    allow origin="*";
-  }
-*/
-/*
-  This allows access to all files.
-  If you want to restrict to only JSON files, you can use:
-  match /path/to/json/* {
-    allow origin="*";
-  }
-*/
-*
-  allow: origin=https://muratquicksolution.netlify.app/
+/* Access-Control-Allow-Origin: *
