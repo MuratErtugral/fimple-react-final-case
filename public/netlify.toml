@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/firebasestorage/*"
+  to = "https://firebasestorage.googleapis.com/v0/b/138006763698/o/:splat"
+  status = 200
+  force = true
+  headers = { X-From = "Netlify", Access-Control-Allow-Origin = "*" }
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
